@@ -10,4 +10,4 @@ while True:
     x, y = pyautogui.position()
     message = f"{x},{y}".encode()
     sock.sendto(message, (target_ip, port))
-    time.sleep(0.01)
+    time.sleep(0.05)
